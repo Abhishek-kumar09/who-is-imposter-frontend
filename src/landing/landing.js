@@ -14,7 +14,12 @@ function Landing(){
             </div>
 
             <div class="hero-header">
-                <h2>Who is Imposter</h2>
+               <div id="white-text">
+                    Who is &nbsp;
+               </div>
+               <div id="red-text">
+                    Imposter ?
+               </div>
 
             </div>
             <br></br>
@@ -24,14 +29,14 @@ function Landing(){
 
             <div class="hero-social-media-icons">
                 <div class="icon">
-                <FontAwesomeIcon icon={['fab', 'chrome']} size="xl" />
+                <FontAwesomeIcon icon={['fab', 'chrome']} fa-2x />
                 </div>
                 <div class="icon">
-                <FontAwesomeIcon icon={['fab', 'github']} size="xl" />
+                <FontAwesomeIcon icon={['fab', 'github']}  />
                 </div>
                 
                 <div class="icon">
-                <FontAwesomeIcon icon={['fas', 'user-circle']} size="xl" />
+                <FontAwesomeIcon icon={['fas', 'user-circle']}  />
                 </div>
                 
 
