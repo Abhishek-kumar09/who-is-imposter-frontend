@@ -7,8 +7,12 @@ function Landing(){
 
     return(
         <>
+        <div class="login-button">
+            <a href="#">Login</a>    
+        </div>
 
         <div class="hero">
+
             <div class="hero-logo">
                 <img src={logo} alt="imposter-logo" />
             </div>
@@ -29,14 +33,20 @@ function Landing(){
 
             <div class="hero-social-media-icons">
                 <div class="icon">
+                    <a href="#">
                 <FontAwesomeIcon icon={['fab', 'chrome']} fa-2x />
+                    </a>
                 </div>
                 <div class="icon">
+                <a href="#">
                 <FontAwesomeIcon icon={['fab', 'github']}  />
+                </a>
                 </div>
                 
                 <div class="icon">
+                <a href="#">
                 <FontAwesomeIcon icon={['fas', 'user-circle']}  />
+                </a>
                 </div>
                 
 
