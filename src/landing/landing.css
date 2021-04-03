@@ -1,0 +1,50 @@
+*{
+    background-color: #001B27;
+}
+
+.hero-logo{
+    position: absolute;
+width: 158px;
+height: 158px;
+margin-left: 530px;
+margin-top: 150px;
+}
+
+.hero-header{
+    position: absolute;
+height: 42px;
+margin-left: 440px;
+margin-top: 370px;
+
+color: #D60000;
+font-family: Poppins;
+font-size: 30px;
+font-style: normal;
+font-weight: bold;
+line-height: 60px;
+display: flex;
+align-items: center;
+letter-spacing: 0.08em;
+}
+
+.hero-description {
+    color: white;
+    height: 150px;
+    width: 750px;
+    margin-left: 237px;
+    margin-top: 430px;
+
+}
+
+.hero-social-media-icons{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.icon{
+color: white;
+size: 100px;
+
+}
+
+
