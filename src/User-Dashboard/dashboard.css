@@ -1,0 +1,92 @@
+.dashboard{
+    margin-top: 48px;
+    margin-left: 50px;
+}
+
+.logo > img{
+    width: 93px;
+}
+
+.side-bar-header{
+    display: flex;
+}
+
+.header{
+    margin-left: 22px;
+    margin-top: 5px;
+}
+
+.header #white-text{
+    color: #F2F2F2;
+    font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 52px;
+display: flex;
+align-items: center;
+letter-spacing: 0.08em;
+}
+
+.header #red-text{
+    color: #D60000;
+
+    font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 37px;
+
+display: flex;
+align-items: center;
+text-align: center;
+
+}
+
+.user-card{
+    position: absolute;
+width: 290px;
+height: 300px;
+top: 198px;
+
+background: #012934;
+border: 10px solid #033841;
+box-sizing: border-box;
+border-radius: 25px;
+}
+
+.user-avatar{
+    width: 85px;
+    height: 85px;
+    margin-left: 92px;
+    margin-top: 30px;
+    background: #001B27;
+    border-radius: 50%;
+    border: 5px solid #FF3E3E;
+    box-sizing: border-box;
+
+}
+
+.user-userid{
+    background: #012934;  
+}
+
+.user-userid > p{
+    color: #F2F2F2;
+    margin-left: 90px;
+    background: #012934;
+}
+
+.logout-button{
+    background: #012934;
+
+}
+.logout-button > button{
+    border-radius: 16px;
+    color:#F2F2F2;
+    height: 40px;
+    width: 100px;
+    border: 2px solid #FF3E3E;
+    margin-left: 88px;
+    margin-top: 30px;
+}

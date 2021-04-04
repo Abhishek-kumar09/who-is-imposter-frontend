@@ -1,6 +1,5 @@
-import logo from './logo.svg';
-import './App.css';
 import Landing from './landing/landing'
+import Dashboard from './User-Dashboard/dashboard'
 
 function App() {
   return (
@@ -20,7 +19,10 @@ function App() {
         </a>
   </header>*/}
   <div>
-    <Landing />
+    {/*<Landing />*/}
+
+    <Dashboard />
+    
   </div>
 
     </div>
