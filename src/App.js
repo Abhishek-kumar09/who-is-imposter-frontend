@@ -1,31 +1,33 @@
 import Landing from './landing/landing'
 import Dashboard from './User-Dashboard/dashboard'
+import {BrowserRouter as Router} from 'react-router-dom';
+import {Route, Switch} from 'react-router-dom';
+
+
+const User = () => {
+  return (<h1>Welcome User</h1>)
+}
 
 function App() {
   return (
+   
     <div className="App">
-      {/*<header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-  </header>*/}
-  <div>
-    {/*<Landing />*/}
+      
+      <Switch>
 
-    <Dashboard />
+        <Route exact path="/UserDashboard" component={Dashboard} />
+        <Route exact path="/" component={Landing} />
+
+      </Switch>
+
+      
+        
+
+        {/*<Dashboard />*/}
     
-  </div>
-
+      
     </div>
+   
   );
 }
 

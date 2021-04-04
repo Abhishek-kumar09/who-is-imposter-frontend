@@ -2,13 +2,17 @@ import React from 'react'
 import logo from '../assets/logo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './landing.css'
+import {BrowserRouter, Link, Route} from 'react-router-dom'
 
 function Landing(){
 
     return(
         <>
         <div class="login-button">
-            <a href="#">Login</a>    
+            
+            <Link to = "/UserDashboard">Login </Link>
+            
+        
         </div>
 
         <div class="hero">

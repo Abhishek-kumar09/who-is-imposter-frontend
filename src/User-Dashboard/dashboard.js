@@ -3,7 +3,7 @@ import logo from '../assets/logo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './dashboard.css'
 
-function Dashboard(){
+const Dashboard = () => {
     return (
         <>
         <div class="dashboard">
