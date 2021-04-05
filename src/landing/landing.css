@@ -1,0 +1,75 @@
+*{
+    background-color: #001B27;
+}
+.hero{
+    margin-top: 0;
+}
+a{
+    text-decoration: none;
+    color:#F2F2F2;
+}
+a:hover{
+    color: #52FDD6;
+}
+.login-button{
+    text-align: right;
+    margin-right: 50px;
+    margin-top: 30px;
+    font-size: larger;
+}
+.hero-logo{
+    position: absolute;
+width: 158px;
+height: 158px;
+margin-left: 530px;
+margin-top: 50px;
+}
+
+.hero-header{
+    position: absolute;
+height: 42px;
+margin-left: 470px;
+margin-top: 240px;
+font-family: Poppins;
+font-size: 30px;
+font-style: normal;
+font-weight: bold;
+line-height: 60px;
+display: flex;
+align-items: center;
+letter-spacing: 0.08em;
+}
+.hero-header #white-text{
+    color: #F2F2F2;
+}
+.hero-header #red-text{
+    color: #D60000;
+}
+.hero-description {
+    color: #F2F2F2;
+    height: 150px;
+    width: 750px;
+    margin-left: 237px;
+    margin-top: 300px;
+
+}
+
+.hero-social-media-icons{
+    width: 150px;
+    height: 40px;
+    margin-left: 540px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.icon{
+color: #F2F2F2;
+font-size: 30px;
+
+}
+.icon:hover{
+    color: #52FDD6;
+    cursor: pointer;
+}
+
+
