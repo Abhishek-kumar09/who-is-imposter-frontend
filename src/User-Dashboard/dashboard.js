@@ -1,17 +1,19 @@
 import React from 'react'
 import logo from '../assets/logo.png';
 import plus from '../assets/plus.png'
+import love from '../assets/Love.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './dashboard.css'
+import {Link} from 'react-router-dom'
 
 const Dashboard = () => {
     return (
         <>
         
 
-        <div class="dashboard"> {/*display:flex*/}
+        <div class="dashboard"> 
 
-                <div class="side-bar">
+                
                     <div class="side-bar-header">  {/*display:flex*/}
 
 
@@ -49,50 +51,66 @@ const Dashboard = () => {
                             </div>
 
                             <div class="logout-button">
-                                <button>LOG OUT</button>
+                            <button><Link to="/">LOG OUT</Link></button>
                             </div>
 
 
                         </div>
 
                     </div>
-                </div>
 
-        {/*Sidebar ends*/}
-        <div class="post-section">
+                            <div class="create-post">
+                                
+                                    <div class="create-post-1"> {/*display:flex*/}
+                                        <div class="plus-sign">
+                                            <img src={plus} />
 
-            <div class="create-post">
-                <div class="create-post-1"> {/*display:flex*/}
-                    <div class="plus-sign">
-                        <img src={plus} />
+                                        </div>
+                                        <div class="text">
+                                            Write a post ....
+                                        </div>
+                                    </div>
 
-                    </div>  
-                    <div class="text">
-                        Write a post .... 
-                    </div>
-                </div>
+                                <div class="post-button">
+                                    <button>Post</button>
+                                </div>
 
-                <div class="post-button">
-                    <button>Post</button>
-                </div>
+                            </div>
 
-            </div>
+                        <div class="people-posts">
+                        <div class="posts-post">
+                            <div class="posts-post-1"> {/*display:flex*/}
+                                {/*Get the data from backend*/}
+                                <div class="avatar">
+                                </div>
 
-            <div class="posts">
-                <div class="posts-post"> 
-                    <div class="posts-post-1"> {/*display:flex*/}
-                        {/*Get the data from backend*/}
-                        <div class="avatar">
+                                <div class="text">
+                                    <p>Written Posts with blalalalal</p>
+                                </div>
+                            </div>
+                            <div class="love-react">
+                                <img src={love} alt="love-react" />
+                            </div>
+
                         </div>
-                        <div class="text">
-                            Written Posts with blalalalal
-                        </div>
-                    </div>
-                </div>
 
-            </div>
-        
-        </div>
+                        <div class="posts-post">
+                            <div class="posts-post-1"> {/*display:flex*/}
+                                {/*Get the data from backend*/}
+                                <div class="avatar">
+                                </div>
+
+                                <div class="text">
+                                    <p>Written Posts with blalalalal</p>
+                                </div>
+                            </div>
+                            <div class="love-react">
+                                <img src={love} alt="love-react" />
+                            </div>
+
+                        </div>
+
+                            </div>
 
         </div>
 

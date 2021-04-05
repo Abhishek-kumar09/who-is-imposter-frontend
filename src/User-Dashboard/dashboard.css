@@ -61,6 +61,10 @@ align-items:flex-end;
 letter-spacing: 0.08em;
 }
 
+.second-row{
+    display: flex;
+    justify-content: space-between;
+}
 
 .user-card{
     position: absolute;
@@ -110,18 +114,21 @@ border-radius: 25px;
     margin-top: 30px;
 }
 
-.post-section{
-    margin-left: 450px;
-    margin-top: 50px;
 
+
+.posts-column{
+    margin-left: 450px;
+    width: 470px;
+    margin-top: 0px;
+    display: inline-block;
 }
 
 .create-post{
     position: absolute;
 width: 440px;
 height: 190px;
-margin-left: 0;
-
+margin-top: 50px;
+margin-left: 450px;
 
 background: #012934;
 border: 10px solid #033841;
@@ -165,9 +172,10 @@ color: rgba(242, 242, 242, 0.6);
     margin-top: 20px;
     margin-left: 300px;
 }
-
-.posts{
-    margin-left: 0;
+.people-posts{
+    margin-top: 0px;
+    margin-left: 450px;
+    display: inline-block;
 }
 
 .posts-post-1{
@@ -175,7 +183,7 @@ color: rgba(242, 242, 242, 0.6);
     display:flex;
 width: 440px;
 height: 190px;
-margin-top: 250px;
+margin-top: 0px;
 background: #012934;
 border: 10px solid #033841;
 box-sizing: border-box;
@@ -194,11 +202,21 @@ border-radius: 25px;
 
 }
 .posts-post-1 .text{
-    background: #012934;
+    background: rgba(255, 255, 255, 0.1);
     margin-left: 20px;
     margin-top: 30px;
     font-size: 20px;
     line-height: 30px;
-
+    width: 280px;
+    height: 75px;
+    border-radius: 12px;
     color: rgba(242, 242, 242, 0.6);
+}
+.posts-post-1 .text > p{
+    align-self: center;
+    margin-left: 5px;
+    background: rgba(255, 255, 255, 0) ;
+}
+.love-react{
+    margin-top: 450px;
 }
