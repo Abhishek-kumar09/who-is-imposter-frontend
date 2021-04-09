@@ -3,9 +3,23 @@ import logo from "../assets/logo.png";
 import plus from "../assets/plus.png";
 import love from "../assets/Love.png";
 import "./dashboard.css";
-import { Link } from "react-router-dom";
+import { useHistory } from "react-router-dom";
+import { logout } from "../firebase";
 
 const Dashboard = () => {
+  const history = useHistory();
+
+  const handleLogout = () => {
+    logout()
+      .then(() => {
+        console.log("logout Successfull");
+        history.push("/");
+      })
+      .catch((e) => {
+        console.log("error", e);
+      });
+  };
+
   return (
     <>
       <div className="dashboard">
@@ -33,9 +47,7 @@ const Dashboard = () => {
               </div>
 
               <div className="logout-button">
-                <button>
-                  <Link to="/">LOG OUT</Link>
-                </button>
+                <button onClick={handleLogout}>LOG OUT</button>
               </div>
             </div>
           </div>
