@@ -35,6 +35,10 @@ function Landing(){
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec laoreet mollis lorem quis semper. Integer non est non magna auctor egestas vitae eu magna. Cras dapibus tellus vitae dolor varius, non cursus lorem semper.</p>
             </div>
 
+            <div class="add-to-chrome-button">
+                <p> + Add to Chrome</p>
+            </div>
+
             <div class="hero-social-media-icons">
                 <div class="icon">
                     <a href="#">

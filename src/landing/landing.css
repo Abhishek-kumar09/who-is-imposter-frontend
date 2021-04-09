@@ -47,7 +47,7 @@ letter-spacing: 0.08em;
 }
 .hero-description {
     color: #F2F2F2;
-    height: 150px;
+    height: 100px;
     width: 750px;
     margin-left: 237px;
     margin-top: 300px;
@@ -56,6 +56,27 @@ letter-spacing: 0.08em;
 .hero-description > p{
     align-self: center;
     margin: 70px;
+}
+.add-to-chrome-button{
+    border: 1px solid #000000;
+    background: #52FDD6;
+    color: #001B27;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 10px;
+    width: 141px;
+    height: 49px;
+    margin-left: 545px;
+    margin-bottom: 20px;
+}
+
+.add-to-chrome-button > p{
+    color: #001B27;
+    background: #52FDD6;
+    align-self: center;
+    text-align: center;
+    font-weight: bold;
+    
 }
 
 .hero-social-media-icons{
