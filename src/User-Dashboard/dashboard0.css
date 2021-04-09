@@ -1,21 +1,22 @@
 *{
     font-family: 'Poppins', sans-serif;
-    font-style: normal;
 }
 .dashboard{
-    display: flex;
-    justify-content: space-between;
     margin-top: 48px;
     margin-left: 50px;
 }
 
-.logoAndHeader{
-    display: flex;
-    width: 300px;
-}
 .logo > img{
-    width: 93px;  
+    width: 93px;
+    
 }
+
+.side-bar-header{
+    display: flex;
+    justify-content: normal;
+    width: 1200px;
+}
+
 .header{
     margin-left: 18px;
     margin-top: 5px;
@@ -23,19 +24,48 @@
 
 .header #white-text{
     color: #F2F2F2;
+    font-family: Poppins;
+font-style: normal;
+font-weight: bold;
 font-size: 30px;
 line-height: 52px;
+display: flex;
+align-items: center;
 letter-spacing: 0.08em;
 }
 
 .header #red-text{
     color: #D60000;
+
+    font-family: Poppins;
+font-style: normal;
 font-weight: bold;
 font-size: 25px;
 line-height: 37px;
+
+display: flex;
+align-items: center;
 text-align: center;
 
 }
+
+.welcome{
+    color: #F2F2F2;
+    font-weight: 800;
+font-size: 50px;
+line-height: 75px;
+text-align: right;
+margin-left: 220px;
+
+align-items:flex-end;
+letter-spacing: 0.08em;
+}
+
+.second-row{
+    display: flex;
+    justify-content: space-between;
+}
+
 .user-card{
     position: absolute;
 width: 290px;
@@ -47,6 +77,7 @@ border: 10px solid #033841;
 box-sizing: border-box;
 border-radius: 25px;
 }
+
 .user-avatar{
     width: 85px;
     height: 85px;
@@ -58,15 +89,17 @@ border-radius: 25px;
     box-sizing: border-box;
 
 }
-.user-userid{
-    background: #012934;
 
+.user-userid{
+    background: #012934;  
 }
+
 .user-userid > p{
-    background: #012934;
     color: #F2F2F2;
     margin-left: 90px;
+    background: #012934;
 }
+
 .logout-button{
     background: #012934;
 
@@ -81,32 +114,24 @@ border-radius: 25px;
     margin-top: 30px;
 }
 
-.col-2{
-    margin-right: 250px;
+.row-second{
     display: flex;
-    flex-direction: column;
-    
-}
-.welcome{
-    color: #F2F2F2;
-    font-weight: 800;
-    font-size: 40px;
-    line-height: 75px;
-    letter-spacing: 0.08em ;
 }
 
-.postings{
-    margin-top: 70px;
-margin-left: 30px;
-
+.posts-column{
+    margin-left: 450px;
+    width: 470px;
+    margin-top: 0px;
+    display: inline-block;
 }
-
-/*create-post card*/
 
 .create-post{
     position: absolute;
 width: 440px;
 height: 190px;
+margin-top: 50px;
+margin-left: 450px;
+
 background: #012934;
 border: 10px solid #033841;
 box-sizing: border-box;
@@ -149,14 +174,13 @@ color: rgba(242, 242, 242, 0.6);
     margin-top: 20px;
     margin-left: 300px;
 }
-
-/*create-post card ends*/
-
-.posting{
-    margin-top: 250px;
-    margin-left: 31px;
+.people-posts{
+    margin-top: 0px;
+    margin-left: 450px;
+    display: inline-block;
 }
-.posting .post1{
+
+.posts-post-1{
     position: absolute;
     display:flex;
 width: 440px;
@@ -167,7 +191,8 @@ border: 10px solid #033841;
 box-sizing: border-box;
 border-radius: 25px;
 }
-.posting .avatar{
+
+.avatar{
     width: 75px;
     height: 75px;
     margin-left: 20px;
@@ -178,53 +203,22 @@ border-radius: 25px;
     box-sizing: border-box;
 
 }
-.posting .text {
-    background: rgba(255, 255, 255, 0.1);
-    margin-top: 20px;
-    margin-bottom: 40px;
-    margin-left: 10px;
-    width: 310px;
+.posts-post-1 .text{
+    background: #F2F2F2;
+    margin-left: 20px;
+    margin-top: 30px;
+    font-size: 20px;
+    line-height: 30px;
+    width: 280px;
+    height: 75px;
     border-radius: 12px;
-    height: 100px;
+    color: rgba(242, 242, 242, 0.6);
 }
-.posting .text > p{
+.posts-post-1 .text > p{
     align-self: center;
     margin-left: 5px;
-    color: rgba(242, 242, 242, 0.6);
-    background: rgba(255, 255, 255, 0);
+    background: #F2F2F2;
 }
-.love-reacts{
-    display: flex;
-    justify-content: start;
+.love-react{
+    margin-top: 450px;
 }
-.posting .love-react{
-    position: relative;
-    margin-top: 147px;
-    background: #012934;
-    width: 30px;
-    margin-left: 50px;
-}
-.posting .second-row{
-    display: flex;
-    justify-content: space-evenly;
-}
-.posting .love-react > img{
-    background: #012934;
-}
-.posting .love-reactions{
-    position: relative;
-    background: #012934;
-    margin-top: 150px;
-    color: rgba(242, 242, 242, 0.6);
-}
-.posting .show-more-button{
-    position: relative;
-    background: #012934;
-    margin-top: 150px;
-    color: rgba(242, 242, 242, 0.6);
-}
-.posting .show-more-button > a{
-    background: #012934;
-    cursor: pointer;
-}
-

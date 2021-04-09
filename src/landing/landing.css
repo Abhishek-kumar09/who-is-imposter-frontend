@@ -53,6 +53,10 @@ letter-spacing: 0.08em;
     margin-top: 300px;
 
 }
+.hero-description > p{
+    align-self: center;
+    margin: 70px;
+}
 
 .hero-social-media-icons{
     width: 150px;
