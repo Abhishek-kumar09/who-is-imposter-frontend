@@ -1,8 +1,9 @@
-*{
+* {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
 }
-.dashboard{
+
+.dashboard {
     display: flex;
     justify-content: space-between;
     margin-top: 48px;
@@ -10,45 +11,47 @@
     margin-bottom: 50px;
 }
 
-.logoAndHeader{
+.logoAndHeader {
     display: flex;
     width: 300px;
 }
-.logo > img{
-    width: 93px;  
+
+.logo>img {
+    width: 93px;
 }
-.header{
+
+.header {
     margin-left: 18px;
     margin-top: 5px;
 }
 
-.header #white-text{
+.header #white-text {
     color: #F2F2F2;
-font-size: 30px;
-line-height: 52px;
-letter-spacing: 0.08em;
+    font-size: 30px;
+    line-height: 52px;
+    letter-spacing: 0.08em;
 }
 
-.header #red-text{
+.header #red-text {
     color: #D60000;
-font-weight: bold;
-font-size: 25px;
-line-height: 37px;
-text-align: center;
-
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 37px;
+    text-align: center;
 }
-.user-card{
+
+.user-card {
     position: absolute;
-width: 290px;
-height: 300px;
-top: 198px;
-
-background: #012934;
-border: 10px solid #033841;
-box-sizing: border-box;
-border-radius: 25px;
+    width: 290px;
+    height: 300px;
+    top: 198px;
+    background: #012934;
+    border: 10px solid #033841;
+    box-sizing: border-box;
+    border-radius: 25px;
 }
-.user-avatar{
+
+.user-avatar {
     width: 85px;
     height: 85px;
     margin-left: 92px;
@@ -57,24 +60,26 @@ border-radius: 25px;
     border-radius: 50%;
     border: 5px solid #FF3E3E;
     box-sizing: border-box;
-
 }
-.user-userid{
+
+.user-userid {
     background: #012934;
-
+    text-align: center;
 }
-.user-userid > p{
+
+.user-userid>p {
     background: #012934;
     color: #F2F2F2;
     margin-left: 90px;
 }
-.logout-button{
-    background: #012934;
 
+.logout-button {
+    background: #012934;
 }
-.logout-button > button{
+
+.logout-button>button {
     border-radius: 16px;
-    color:#F2F2F2;
+    color: #F2F2F2;
     height: 40px;
     width: 100px;
     border: 2px solid #FF3E3E;
@@ -82,67 +87,69 @@ border-radius: 25px;
     margin-top: 30px;
 }
 
-.col-2{
+.col-2 {
     margin-right: 250px;
     display: flex;
     flex-direction: column;
-    
 }
-.welcome{
+
+.welcome {
     color: #F2F2F2;
     font-weight: 800;
     font-size: 40px;
     line-height: 75px;
-    letter-spacing: 0.08em ;
+    letter-spacing: 0.08em;
 }
 
-.postings{
+.postings {
     margin-top: 70px;
-margin-left: 30px;
-
 }
 
 /*create-post card*/
 
-.create-post{
-    position: absolute;
-width: 440px;
-height: 190px;
-background: #012934;
-border: 10px solid #033841;
-box-sizing: border-box;
-border-radius: 25px;
+.create-post {
+    width: auto;
+    height: 190px;
+    background: #012934;
+    border: 10px solid #033841;
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin-bottom: 60px;
 }
-.create-post-1{
+
+.create-post-1 {
     display: flex;
     background-color: #012934;
 }
-.plus-sign{
+
+.plus-sign {
     background-color: #012934;
-    width:100px;
+    width: 100px;
 }
-.plus-sign > img{
+
+.plus-sign>img {
     margin-left: 20px;
     margin-top: 20px;
     background: #012934;
 }
-.create-post .text{
+
+.create-post .text {
     background: #012934;
     margin-left: 20px;
     margin-top: 30px;
     font-size: 20px;
-line-height: 30px;
-
-color: rgba(242, 242, 242, 0.6);
-
+    line-height: 30px;
+    color: rgba(242, 242, 242, 0.6);
+    border: none;
 }
 
-.post-button{
+.post-button {
     background: #012934;
 }
-.post-button>button{
+
+.post-button>button {
     border-radius: 16px;
-    color:#F2F2F2;
+    color: #F2F2F2;
     height: 40px;
     width: 100px;
     border: 2px solid #FF3E3E;
@@ -153,22 +160,20 @@ color: rgba(242, 242, 242, 0.6);
 
 /*create-post card ends*/
 
-.posting{
-    margin-top: 250px;
-    margin-left: 31px;
+.posting {
+    background: #012934;
+    border: 10px solid #033841;
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin-bottom: 40px;
 }
-.posting .post1{
-    position: absolute;
-    display:flex;
-width: 440px;
-height: 190px;
-margin-top: 0px;
-background: #012934;
-border: 10px solid #033841;
-box-sizing: border-box;
-border-radius: 25px;
+
+.posting .post1 {
+    display: flex;
+    width: 440px;
 }
-.posting .avatar{
+
+.posting .avatar {
     width: 75px;
     height: 75px;
     margin-left: 20px;
@@ -177,8 +182,8 @@ border-radius: 25px;
     border-radius: 50%;
     border: 5px solid #033841;
     box-sizing: border-box;
-
 }
+
 .posting .text {
     background: rgba(255, 255, 255, 0.1);
     margin-top: 20px;
@@ -186,46 +191,48 @@ border-radius: 25px;
     margin-left: 10px;
     width: 310px;
     border-radius: 12px;
-    height: 100px;
+    height: fit-content;
+    border: none;
+    padding-left: 16px;
 }
-.posting .text > p{
+
+.posting .text>p {
     align-self: center;
     margin-left: 5px;
     color: rgba(242, 242, 242, 0.6);
+    border: none;
     background: rgba(255, 255, 255, 0);
 }
-.love-reacts{
+
+.love-reacts {
     display: flex;
     justify-content: start;
 }
-.posting .love-react{
-    position: relative;
-    margin-top: 147px;
-    background: #012934;
+
+.posting .love-react {
     width: 30px;
     margin-left: 50px;
-}
-.posting .second-row{
-    display: flex;
-    justify-content: space-evenly;
-}
-.posting .love-react > img{
-    background: #012934;
-}
-.posting .love-reactions{
-    position: relative;
-    background: #012934;
-    margin-top: 150px;
-    color: rgba(242, 242, 242, 0.6);
-}
-.posting .show-more-button{
-    position: relative;
-    background: #012934;
-    margin-top: 150px;
-    color: rgba(242, 242, 242, 0.6);
-}
-.posting .show-more-button > a{
-    background: #012934;
-    cursor: pointer;
+    margin-right: 8px;
+    margin-top: -2px;
 }
 
+.posting .second-row {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+}
+
+
+.posting .love-reactions {
+    /* position: relative; */
+    color: rgba(242, 242, 242, 0.6);
+}
+
+.posting .show-more-button {
+    /* position: relative; */
+    color: rgba(242, 242, 242, 0.6);
+}
+
+.posting .show-more-button>a {
+    cursor: pointer;
+}
