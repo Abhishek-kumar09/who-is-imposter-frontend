@@ -64,7 +64,12 @@ const Dashboard = () => {
                 <div className="plus-sign">
                   <img src={plus} />
                 </div>
-                <div className="text">Write a post ....</div>
+                <textarea
+                  className="text"
+                  name="text-input"
+                  placeholder="Write a Post"
+                  multiple
+                ></textarea>
               </div>
 
               <div className="post-button">
@@ -72,8 +77,9 @@ const Dashboard = () => {
               </div>
             </div>
           </div>
-          <div>
-            <div className="posting">
+
+          <div className="posting">
+            <div className="pos">
               <div className="post1">
                 {" "}
                 {/* display:flex */}
@@ -81,21 +87,27 @@ const Dashboard = () => {
                 <div className="avatar"></div>
                 <div className="text">
                   <p>Written Posts with blalalalal</p>
+                  <p>Written Posts with blalalalal</p>
+                  <p>Written Posts with blalalalal</p>
+                  <p>Written Posts with blalalalal</p>
+                  <p>Written Posts with blalalalal</p>
+                  <p>Written Posts with blalalalal</p>
+                  <p>Written Posts with blalalalal</p>
                 </div>
               </div>
+            </div>
 
-              <div className="second-row">
-                <div className="love-reacts">
-                  <div className="love-react">
-                    <img src={love} alt="love-react" />
-                  </div>
-
-                  <div className="love-reactions">12</div>
+            <div className="second-row">
+              <div className="love-reacts">
+                <div className="love-react">
+                  <img src={love} alt="love-react" />
                 </div>
 
-                <div className="show-more-button">
-                  <a>Show More...</a>
-                </div>
+                <div className="love-reactions">12</div>
+              </div>
+
+              <div className="show-more-button">
+                <a>Show More...</a>
               </div>
             </div>
           </div>
