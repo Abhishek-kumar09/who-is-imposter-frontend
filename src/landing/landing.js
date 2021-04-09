@@ -4,8 +4,19 @@ import securityGif from "../assets/security1.gif";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./landing.css";
 import { Link } from "react-router-dom";
+import { signInWithGoogle } from "../firebase";
 
 function Landing() {
+  const handleGoogleSignIn = () => {
+    signInWithGoogle()
+      .then((result) => {
+        console.log(result);
+      })
+      .catch((e) => {
+        console.log("error", e);
+      });
+  };
+
   return (
     <>
       <div className="login-button">
@@ -47,7 +58,7 @@ function Landing() {
             </a>
           </div>
 
-          <div className="icon">
+          <div className="icon" onClick={handleGoogleSignIn}>
             <a href="#">
               <FontAwesomeIcon icon={["fas", "user-circle"]} />
             </a>

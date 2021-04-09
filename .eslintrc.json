@@ -28,7 +28,9 @@
       {
         "usePrettierrc": true
       }
-    ],
+    ],    
+    "no-unused-vars": "warn",
+    "no-undef": "warn",
     "react/prop-types": 0,
     "react/react-in-jsx-scope": 0
   },
