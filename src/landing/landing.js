@@ -72,9 +72,28 @@ function Landing(){
             <div class="security-gif">
                 <img src={securityGif} alt="security, privacy, ethicality stuff" />
 
-            </div>
+        <div className="add-to-chrome-button">
+          <p> + Add to Chrome</p>
+        </div>
 
-            <div class="features">
+        <div className="hero-social-media-icons">
+          <div className="icon">
+            <a href="#">
+              <FontAwesomeIcon icon={["fab", "chrome"]} fa-2x />
+            </a>
+          </div>
+          <div className="icon">
+            <a href="#">
+              <FontAwesomeIcon icon={["fab", "github"]} />
+            </a>
+          </div>
+
+          <div className="icon">
+            <a href="#">
+              <FontAwesomeIcon icon={["fas", "user-circle"]} />
+            </a>
+          </div>
+        </div>
 
                         <div class="feature">
                             <div class="tick-icon"> <FontAwesomeIcon icon={['fas', 'check']} /></div>
@@ -121,10 +140,14 @@ function Landing(){
 
             Made with &#9829; by Ravisha, Abhishek and Siddesh
 
+        <div className="security-gif">
+          <img src={securityGif} alt="security, privacy, ethicality stuff" />
         </div>
 
-        </>
-    )
+        <div className="features"></div>
+      </div>
+    </>
+  );
 }
 
 export default Landing;
