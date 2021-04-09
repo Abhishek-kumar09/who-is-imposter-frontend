@@ -3,7 +3,7 @@ import logo from "../assets/logo.png";
 import securityGif from "../assets/security1.gif";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./landing.css";
-import { BrowserRouter, Link, Route } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Landing() {
   return (
@@ -38,7 +38,7 @@ function Landing() {
         <div className="hero-social-media-icons">
           <div className="icon">
             <a href="#">
-              <FontAwesomeIcon icon={["fab", "chrome"]} fa-2x />
+              <FontAwesomeIcon icon={["fab", "chrome"]} />
             </a>
           </div>
           <div className="icon">
@@ -53,14 +53,75 @@ function Landing() {
             </a>
           </div>
         </div>
+      </div>
 
-        {/* after-hero section starts */}
+      {/* after-hero section starts */}
+      <h2>Know our platform</h2>
 
+      <div className="second-part">
         <div className="security-gif">
           <img src={securityGif} alt="security, privacy, ethicality stuff" />
         </div>
 
-        <div className="features"></div>
+        <div className="features">
+          <div className="feature">
+            <div className="tick-icon">
+              {" "}
+              <FontAwesomeIcon icon={["fas", "check"]} />
+            </div>
+
+            <div className="text">
+              Analyzes the authenticity of posts you see on Twitter
+            </div>
+          </div>
+
+          <div className="feature">
+            <div className="tick-icon">
+              {" "}
+              <FontAwesomeIcon icon={["fas", "check"]} />
+            </div>
+
+            <div className="text">
+              Checks the forms you fill, analyzes the data-fields
+            </div>
+          </div>
+
+          <div className="feature">
+            <div className="tick-icon">
+              {" "}
+              <FontAwesomeIcon icon={["fas", "check"]} />
+            </div>
+
+            <div className="text">
+              Helps you stay safe from unethical and shady platforms
+            </div>
+          </div>
+
+          <div className="feature">
+            <div className="tick-icon">
+              {" "}
+              <FontAwesomeIcon icon={["fas", "check"]} />
+            </div>
+
+            <div className="text">
+              You can post and see other&apos;s posts and reviews about the
+              sites you visit
+            </div>
+          </div>
+
+          <div className="feature">
+            <div className="tick-icon">
+              {" "}
+              <FontAwesomeIcon icon={["fas", "check"]} />
+            </div>
+
+            <div className="text">Warns you for creepy imposters around!</div>
+          </div>
+        </div>
+      </div>
+
+      <div className="footer">
+        Made with &#9829; by Ravisha, Abhishek and Siddesh
       </div>
     </>
   );

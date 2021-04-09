@@ -3,6 +3,7 @@
 }
 .hero{
     margin-top: 0;
+    margin-bottom: 30px;
 }
 a{
     text-decoration: none;
@@ -12,11 +13,13 @@ a:hover{
     color: #52FDD6;
 }
 .login-button{
+    
     text-align: right;
     margin-right: 50px;
     margin-top: 30px;
-    font-size: larger;
+    font-size: 23px
 }
+
 .hero-logo{
     position: absolute;
 width: 158px;
@@ -117,13 +120,45 @@ font-size: 30px;
     -ms-transform: scale(1.2);
     transform: scale(1.2);
 }
+h2{
+    color: #F2F2F2;
+    margin-left: 500px;
+    margin-bottom: 50px;
+}
+.second-part{
+    display: flex;
+    justify-content:space-between;
+}
 
 .security-gif > img{
     width: 400px;
     height: 350px;
     margin-left: 60px;
     margin-bottom: 100px;
-
     
+}
+
+.features{
+    margin-right: 150px;
+}
+.feature{
+    color: #F2F2F2;
+    font-weight: 200;
+    margin: 30px;
+    display: flex;
+}
+.tick-icon{
+    color: #F2F2F2;
+    font-size: 30px;
+    margin-right: 10px;
+}
+.text{
+    margin-top: 5px;
+}
+.footer{
+    color: #F2F2F2;
+    font-size: 15px;
+    margin-left: 450px;
+    margin-bottom: 50px;
 }
 

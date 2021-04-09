@@ -1,10 +1,6 @@
 import Landing from "./landing/landing";
 import Dashboard from "./User-Dashboard/dashboard";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-
-const User = () => {
-  return <h1>Welcome User</h1>;
-};
+import { Route, Switch } from "react-router-dom";
 
 function App() {
   return (
