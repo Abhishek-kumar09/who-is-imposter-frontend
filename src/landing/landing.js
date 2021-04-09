@@ -6,7 +6,7 @@ import "./landing.css";
 import { Link } from "react-router-dom";
 import { signInWithGoogle } from "../firebase";
 
-function Landing() {
+function Landing({ user }) {
   const handleGoogleSignIn = () => {
     signInWithGoogle()
       .then((result) => {
@@ -20,7 +20,14 @@ function Landing() {
   return (
     <>
       <div className="login-button">
-        <Link to="/UserDashboard">Login </Link>
+        {user !== null
+          ? <Link to="/UserDashboard">
+            {user.displayName}
+        </Link>
+          :
+          <Link onClick={handleGoogleSignIn}>
+            Login
+        </Link>}
       </div>
 
       <div className="hero">
