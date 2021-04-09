@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from '../assets/logo.png';
+import securityGif from '../assets/security1.gif'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './landing.css'
 import {BrowserRouter, Link, Route} from 'react-router-dom'
@@ -35,6 +36,10 @@ function Landing(){
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec laoreet mollis lorem quis semper. Integer non est non magna auctor egestas vitae eu magna. Cras dapibus tellus vitae dolor varius, non cursus lorem semper.</p>
             </div>
 
+            <div class="add-to-chrome-button">
+                <p> + Add to Chrome</p>
+            </div>
+
             <div class="hero-social-media-icons">
                 <div class="icon">
                     <a href="#">
@@ -53,6 +58,17 @@ function Landing(){
                 </a>
                 </div>
                 
+
+            </div>
+
+            {/*after-hero section starts*/}
+
+            <div class="security-gif">
+                <img src={securityGif} alt="security, privacy, ethicality stuff" />
+
+            </div>
+
+            <div class="features">
 
             </div>
 
