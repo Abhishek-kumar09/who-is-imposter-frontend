@@ -68,6 +68,7 @@ letter-spacing: 0.08em;
     height: 49px;
     margin-left: 545px;
     margin-bottom: 20px;
+    cursor: pointer; 
 }
 
 .add-to-chrome-button > p{
@@ -76,7 +77,22 @@ letter-spacing: 0.08em;
     align-self: center;
     text-align: center;
     font-weight: bold;
-    
+    cursor: pointer; 
+
+}
+.add-to-chrome-button:hover{
+    color: #52FDD6;
+    background:  #012934;
+    transition: all 300ms ease; 
+
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.add-to-chrome-button:hover > p{
+    color: #52FDD6;
+    background:  #012934;
+    transition: all 200ms ease; 
 }
 
 .hero-social-media-icons{
@@ -95,6 +111,19 @@ font-size: 30px;
 .icon:hover{
     color: #52FDD6;
     cursor: pointer;
+
+    transition: all 200ms ease; 
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
 }
 
+.security-gif > img{
+    width: 400px;
+    height: 350px;
+    margin-left: 60px;
+    margin-bottom: 100px;
+
+    
+}
 

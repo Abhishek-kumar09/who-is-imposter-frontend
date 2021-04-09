@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from '../assets/logo.png';
+import securityGif from '../assets/security1.gif'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './landing.css'
 import {BrowserRouter, Link, Route} from 'react-router-dom'
@@ -57,6 +58,17 @@ function Landing(){
                 </a>
                 </div>
                 
+
+            </div>
+
+            {/*after-hero section starts*/}
+
+            <div class="security-gif">
+                <img src={securityGif} alt="security, privacy, ethicality stuff" />
+
+            </div>
+
+            <div class="features">
 
             </div>
 
