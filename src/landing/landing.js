@@ -3,7 +3,7 @@ import logo from '../assets/logo.png';
 import securityGif from '../assets/security1.gif'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './landing.css'
-import {BrowserRouter, Link, Route} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 
 function Landing(){
 
@@ -43,7 +43,7 @@ function Landing(){
             <div class="hero-social-media-icons">
                 <div class="icon">
                     <a href="#">
-                <FontAwesomeIcon icon={['fab', 'chrome']} fa-2x />
+                <FontAwesomeIcon icon={['fab', 'chrome']} />
                     </a>
                 </div>
                 <div class="icon">
@@ -60,8 +60,14 @@ function Landing(){
                 
 
             </div>
+            </div>
 
             {/*after-hero section starts*/}
+            <h2>Know our platform</h2>
+
+            <div class="second-part">
+
+                
 
             <div class="security-gif">
                 <img src={securityGif} alt="security, privacy, ethicality stuff" />
@@ -70,7 +76,50 @@ function Landing(){
 
             <div class="features">
 
+                        <div class="feature">
+                            <div class="tick-icon"> <FontAwesomeIcon icon={['fas', 'check']} /></div>
+
+                            <div class="text">Analyzes the authenticity of posts you see on Twitter</div>
+
+                        </div>
+
+                        <div class="feature">
+                            <div class="tick-icon"> <FontAwesomeIcon icon={['fas', 'check']} /></div>
+
+                            <div class="text">Checks the forms you fill, analyzes the data-fields</div>
+
+                        </div>
+
+                        <div class="feature">
+                            <div class="tick-icon"> <FontAwesomeIcon icon={['fas', 'check']} /></div>
+
+                            <div class="text">Helps you stay safe from unethical and shady platforms</div>
+
+                        </div>
+
+                        <div class="feature">
+                            <div class="tick-icon"> <FontAwesomeIcon icon={['fas', 'check']} /></div>
+
+                            <div class="text">You can post and see other's posts and reviews about the sites you visit</div>
+
+                        </div>
+
+                        <div class="feature">
+                            <div class="tick-icon"> <FontAwesomeIcon icon={['fas', 'check']} /></div>
+
+                            <div class="text">Warns you for creepy imposters around!</div>
+
+                        </div>
+
+                       
             </div>
+            
+
+        </div>
+
+        <div class="footer">
+
+            Made with &#9829; by Ravisha, Abhishek and Siddesh
 
         </div>
 
