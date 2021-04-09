@@ -9,8 +9,8 @@ function App() {
 
   useEffect(() => {
     auth.onAuthStateChanged((user) => {
+      console.log(user);
       setUser(user);
-      // console.log('user', user)
     });
   }, []);
 
@@ -20,8 +20,7 @@ function App() {
         <Route
           exact
           path="/UserDashboard"
-          component={Dashboard}
-          user={currentUser}
+          render={(props) => <Dashboard user={currentUser} {...props} />}
         />
         <Route exact path="/" component={Landing} />
       </Switch>
