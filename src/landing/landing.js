@@ -23,7 +23,7 @@ function Landing({ user }) {
         {user !== null
           ? <Link to="/UserDashboard">
             {user.displayName}
-        </Link>
+          </Link>
           :
           <Link onClick={handleGoogleSignIn}>
             Login
@@ -40,12 +40,11 @@ function Landing({ user }) {
           <div id="red-text">Imposter ?</div>
         </div>
         <br></br>
-        <div className="hero-description">
+        <div className="hero-description" style={{textAlign: 'center', lineHeight: 1.5}}>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-            laoreet mollis lorem quis semper. Integer non est non magna auctor
-            egestas vitae eu magna. Cras dapibus tellus vitae dolor varius, non
-            cursus lorem semper.
+            The Best Need for your data Security,
+            Don't Let the people to play with your privacy.            
+            Monitor Cookies, social links, save yourself from harmful internet and know where your data is flowing with just one extension
           </p>
         </div>
 
@@ -60,7 +59,7 @@ function Landing({ user }) {
             </a>
           </div>
           <div className="icon">
-            <a href="#">
+            <a href="https://github.com/Abhishek-kumar09/who-is-imposter-frontend">
               <FontAwesomeIcon icon={["fab", "github"]} />
             </a>
           </div>

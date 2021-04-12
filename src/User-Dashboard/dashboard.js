@@ -91,7 +91,7 @@ const Dashboard = ({ user }) => {
         </div>{" "}
         {/* col-1 ends */}
         <div className="col-2">
-          <div className="welcome">Welcome Username!</div>
+          <div className="welcome">Welcome User!</div>
 
           <div className="postings">
             <div className="create-post">
