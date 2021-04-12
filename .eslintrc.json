@@ -32,7 +32,21 @@
     "no-unused-vars": "warn",
     "no-undef": "warn",
     "react/prop-types": 0,
-    "react/react-in-jsx-scope": 0
+    "react/react-in-jsx-scope": 0,
+    "comma-dangle": "off",
+    "no-plusplus": "off",
+    "react/no-unescaped-entities": "off",
+    "import/no-unresolved": "off",
+    "react-hooks/exhaustive-deps": "off",
+    "react/jsx-filename-extension": "off",
+    "react/jsx-props-no-spreading": "off",
+    "react/require-default-props": "off",
+    "react/forbid-prop-types": "off",
+    "jsx-a11y/click-events-have-key-events": "off",
+    "jsx-a11y/no-static-element-interactions": "off",
+    "jsx-a11y/control-has-associated-label": "off",
+    "jsx-a11y/anchor-is-valid": "off",
+    "semi": [2, "always"]
   },
   "settings": {
     "react": {

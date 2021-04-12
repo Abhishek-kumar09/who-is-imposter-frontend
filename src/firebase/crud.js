@@ -1,4 +1,4 @@
-import firebase, { firestore as db } from "./index";
+import { firestore as db } from "./index";
 
 export function add(collection, doc, data) {
   db.collection(collection)
@@ -29,4 +29,4 @@ export async function getData(collection, setData) {
   setData(dataArray);
 }
 
-function addComment(uid, data) {}
+// function addComment(uid, data) {}

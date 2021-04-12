@@ -22,7 +22,12 @@ function App() {
           path="/UserDashboard"
           render={(props) => <Dashboard user={currentUser} {...props} />}
         />
-        <Route exact path="/" user={currentUser} render={(props) => <Landing user={currentUser} {...props} /> } />
+        <Route
+          exact
+          path="/"
+          user={currentUser}
+          render={(props) => <Landing user={currentUser} {...props} />}
+        />
       </Switch>
 
       {/* <Dashboard /> */}

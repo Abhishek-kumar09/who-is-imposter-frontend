@@ -20,14 +20,11 @@ function Landing({ user }) {
   return (
     <>
       <div className="login-button">
-        {user !== null
-          ? <Link to="/UserDashboard">
-            {user.displayName}
-          </Link>
-          :
-          <Link onClick={handleGoogleSignIn}>
-            Login
-        </Link>}
+        {user !== null ? (
+          <Link to="/UserDashboard">{user.displayName}</Link>
+        ) : (
+          <Link onClick={handleGoogleSignIn}>Login</Link>
+        )}
       </div>
 
       <div className="hero">
@@ -40,11 +37,15 @@ function Landing({ user }) {
           <div id="red-text">Imposter ?</div>
         </div>
         <br></br>
-        <div className="hero-description" style={{textAlign: 'center', lineHeight: 1.5}}>
+        <div
+          className="hero-description"
+          style={{ textAlign: "center", lineHeight: 1.5 }}
+        >
           <p>
-            The Best Need for your data Security,
-            Don't Let the people to play with your privacy.            
-            Monitor Cookies, social links, save yourself from harmful internet and know where your data is flowing with just one extension
+            The Best Need for your data Security, Don't Let the people to play
+            with your privacy. Monitor Cookies, social links, save yourself from
+            harmful internet and know where your data is flowing with just one
+            extension
           </p>
         </div>
 
