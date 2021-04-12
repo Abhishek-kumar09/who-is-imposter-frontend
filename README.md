@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# Who Is Imposter
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The project is an effort in the direction of coping with the very important issue of authenticity and security for the users.
 
-## Available Scripts
+We share a lot of data with the world and keeping the log of it is impossible, but who is imposter is here to help. It keeps log of all the data, breaches, shared information with various websites and if future there is data breach, you have the data set to find out the imposters among hundreds.
 
-In the project directory, you can run:
+Additionallu, it is a Chrome Extension that helps you check the issues you might face on a site based on the cookies the site uses. We implemented a Fake News Detector for Twitter posts. This would blur out a tweet whose "fakeness-probability" is more than 0.9 or 90%. But would give you an option to deblur it in case you wish to see what these creepy imposters are up to, Haha! We also implemented a "Form/Input scraper" in order to scrape the labels of a Google form and judge the safety of it, however, a lot of it becomes pretty obvious! Like if some form is asking for your credit card details, our crawlers would cross-check it, etc. We also included a posting feature in the prototype in which people can come up and post their views on a site and others can decide if they wanna use it or how much do they wanna use it. This feature is a little glitchy for some reason but on it!
 
-### `yarn start`
+Your data can be categorised into 3 category:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+-    Most secure data: Credit, Debit cards etc
+-    Scamming purpose data: Mobile Number where you can get potential spam calls if you expose it to someone.
+-    Normal Data: Your email adresses, etc. It keeps a minimal record of everydata you give to the websites and categorise those data as according.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Build Setup
 
-### `yarn test`
+```bash
+# install dependencies
+npm install
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# development run
+npm run start
 
-### `yarn build`
+# build for production
+npm run build
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Design
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Home : https://www.figma.com/file/QQgKJkUVNRV1Y0VGkH6RLt/who-is-imposter?node-id=0%3A1
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Project Structure
 
-### `yarn eject`
+    .
+    ├── build                   # Compiled files
+    ├── src                     # Source files
+    └── ...
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Src Structure
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    .
+    ├── ...
+    ├── src
+    │   ├── ...
+    │   ├── assets              # assets for the website
+    |   ├── index.js            # starting point
+    │   └── ...
+    └── ...
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Contributions and PR
+- PRs and contributions are welcome if you find any bug
+- Feel free to create your own issues and work on existing issues and come up with PR
